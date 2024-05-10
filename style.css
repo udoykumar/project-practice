@@ -1,0 +1,117 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+section {
+    margin-bottom: 50px;
+}
+.orange-heighlight {
+    color: orange;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 10px 0;
+    color: gray;
+    
+}
+h2{
+    font-size: 30px;
+    margin: 20px 0;
+}
+h3 {
+    font-size: 15px;
+    margin: 15px 0;
+    color: rgb(36, 34, 34);
+    font-weight: bold;
+}
+p {
+    color: dimgray;
+    text-align: justify;
+    line-height: 20px;
+    margin-right: 10px;
+
+}
+.p1 {
+    text-align: justify;
+    line-height: 20px;
+}
+.button {
+   background-image: linear-gradient(45deg, orange, blue ); 
+   text-align: center;
+   padding: 10px 20px ;
+   border-radius: 10px;
+   
+   display: inline-block;
+
+}
+.button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 12px auto;
+}
+/* .half-width a{
+    margin-top: 10px;
+} */
+.half-width {
+    margin: 0 5%;
+    width: 50%;
+    padding-left: 2%;
+}
+.half-width img {
+    width: 100%;
+    border-radius: 50%;
+    align-items: center;
+}
+.section1 {
+    background-color: rgb(241, 241, 241);
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+}
+/* .dream-area a{
+    text-decoration: none;
+    margin-top: 40px;
+} */
+.experience {
+    height: 500px;
+}
+.experience-area {
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+    width: 100%;
+}
+.singel-experience {
+    box-shadow: 10px 10px 40px gray;
+   
+} 
+#full-stack {
+    border-left: 5px solid;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web {
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, aqua);
+    border-image-slice: 1; 
+}
+h4{
+    font-size: 30px;
+    color: gray;
+    margin: 0 5%;
+    padding: 2% 0;
+}
+
+.copy-right {
+    text-align: center;
+    padding-bottom: 20px;
+}
